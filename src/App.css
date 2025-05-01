@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Parte superior */
+.topbar {
+  background-color: #4b0082;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 80px;
+}
+
+.title-box h1 {
+  margin: 0;
+}
+
+.title-box p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.logout-btn {
+  background-color: #ff5733;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Layout debajo del topbar */
+.layout {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+/* Contenido principal */
+.main-content {
+  background-color: #500391;
+  color: white;
+  padding: 2rem;
+  flex-grow: 1;
+}
